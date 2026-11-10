@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Jarvis" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/jarvis_primary</item>
+    </style>
+</resources>
