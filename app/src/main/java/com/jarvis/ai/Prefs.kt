@@ -27,7 +27,7 @@ class Prefs(ctx: Context) {
         get() = s("openai_key", "")
         set(v) = putS("openai_key", v.trim())
     var geminiModel: String
-        get() = s("gemini_model", "gemini-2.0-flash")
+        get() = s("gemini_model", "gemini-3.8-flash")
         set(v) = putS("gemini_model", v.trim())
     var openaiModel: String
         get() = s("openai_model", "gpt-4o-mini")

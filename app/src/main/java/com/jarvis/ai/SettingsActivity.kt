@@ -73,7 +73,7 @@ class SettingsActivity : AppCompatActivity() {
             p.provider = if (it == 1) "openai" else "gemini"
         }
         field("Gemini API Key", p.geminiKey, password = true) { p.geminiKey = it }
-        field("Gemini model (e.g. gemini-2.0-flash)", p.geminiModel) { p.geminiModel = it }
+        field("Gemini model (e.g. gemini-3.8-flash)", p.geminiModel) { p.geminiModel = it }
         field("OpenAI API Key", p.openaiKey, password = true) { p.openaiKey = it }
         field("OpenAI model (e.g. gpt-4o-mini)", p.openaiModel) { p.openaiModel = it }
 
