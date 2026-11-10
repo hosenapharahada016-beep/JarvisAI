@@ -335,7 +335,7 @@ class MainActivity : AppCompatActivity() {
             .putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
             .putExtra(RecognizerIntent.EXTRA_LANGUAGE, tag)
             .putExtra(
-                RecognizerIntent.EXTRA_ADDITIONAL_LANGUAGES,
+                "android.speech.extra.ADDITIONAL_LANGUAGES",
                 arrayOf("en-US", "bn-BD", "hi-IN", "ur-PK", "ar-SA")
             )
             .putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, false)
